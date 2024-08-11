@@ -21,6 +21,13 @@ vim.opt.number = true
 -- highlight column 75
 vim.opt.colorcolumn = '75'
 
+-- tab spacing
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.softtabstop = 4
+vim.opt.smarttab = true
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
 
