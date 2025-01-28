@@ -19,7 +19,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 -- highlight column 75
-vim.opt.colorcolumn = '80'
+-- vim.opt.colorcolumn = '80'
 
 -- tab spacing
 vim.opt.tabstop = 4

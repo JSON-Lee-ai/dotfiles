@@ -13,3 +13,11 @@ PS1='[\u@\h \W]\$ '
 eval "$(starship init bash)"
 
 alias ls='ls -la'
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# nvim
+export VISUAL=nvim
+export EDITOR="$VISUAL"
